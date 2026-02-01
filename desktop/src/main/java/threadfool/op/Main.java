@@ -1,2 +1,5 @@
-package threadfool.op;public class Main {
+package threadfool.op;
+
+public class Main
+{
 }
