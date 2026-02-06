@@ -18,6 +18,8 @@ public class GameLoop
 	}
 
 	public void run(){
+		Time.init();
+
 		while(!window.shouldClose()){
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 			renderer.renderTriangle();
