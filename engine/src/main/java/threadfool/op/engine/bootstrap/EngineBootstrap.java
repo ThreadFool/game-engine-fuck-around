@@ -6,7 +6,8 @@ import threadfool.op.engine.platform.window.Window;
 
 public class EngineBootstrap
 {
-	public static void start(){
+	public static void start() throws InterruptedException
+	{
 		Window window = new Window();
 		window.create(800, 600, "Engine v.0.1");
 

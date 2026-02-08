@@ -18,4 +18,8 @@ public class Transform
 				.scale(scale.x, scale.y, 1f);
 		return modelMatrix;
 	}
+
+	public void setRotation(float rot){
+		rotation = rot;
+	}
 }

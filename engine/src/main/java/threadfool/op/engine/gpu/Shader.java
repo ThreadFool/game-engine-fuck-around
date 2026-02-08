@@ -2,6 +2,11 @@ package threadfool.op.engine.gpu;
 
 import static org.lwjgl.opengl.GL20.*;
 
+import java.nio.FloatBuffer;
+
+import org.joml.Matrix4f;
+import org.lwjgl.BufferUtils;
+
 public class Shader
 {
 	public final int programId;
@@ -40,5 +45,12 @@ public class Shader
 	public void setVec2(String name, float x, float y) {
 		int loc = glGetUniformLocation(programId, name);
 		glUniform2f(loc, x, y);
+	}
+
+	public void setMat4(String name, Matrix4f mat){
+		int loc = glGetUniformLocation(programId, name);
+		FloatBuffer fb = BufferUtils.createFloatBuffer(16);
+		mat.get(fb);
+		glUniformMatrix4fv(loc, false, fb);
 	}
 }
