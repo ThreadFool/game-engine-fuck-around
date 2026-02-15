@@ -5,7 +5,7 @@ import org.joml.Vector2f;
 
 public class Transform
 {
-	public final Vector2f position = new Vector2f(0, 0);
+	public  Vector2f position = new Vector2f(0, 0);
 	public float rotation = 0f; // radians
 	public final Vector2f scale = new Vector2f(1, 1);
 

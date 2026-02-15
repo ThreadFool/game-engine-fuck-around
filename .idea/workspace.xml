@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5d2425-26cc-4307-9d4c-2e36e6c5962f" name="Changes" comment="" />
+    <list default="true" id="1c5d2425-26cc-4307-9d4c-2e36e6c5962f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/scene/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/core/GameLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/core/GameLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/render/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/render/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/scene/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/scene/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/scene/Transform.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/I583075/Desktop/Repositories/My/game-engine-fuck-around" value="3925SkvxfGLD9fS2o8AIPVphUbu" />
+    </persistenceIdMap>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -37,9 +52,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3925SkvxfGLD9fS2o8AIPVphUbu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +68,7 @@
     "Gradle.game-engine-fuck-around:desktop [:desktop:DesktopLauncher.main()].executor": "Run",
     "Gradle.game-engine-fuck-around:engine [:engine:DesktopLauncher.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -117,17 +133,63 @@
       <option name="presentableId" value="Default" />
       <updated>1751959602298</updated>
     </task>
+    <task id="LOCAL-00001" summary="transform add">
+      <option name="closed" value="true" />
+      <created>1770328220667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770328220667</updated>
+    </task>
+    <task id="LOCAL-00002" summary="time">
+      <option name="closed" value="true" />
+      <created>1770415262525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770415262525</updated>
+    </task>
+    <task id="LOCAL-00003" summary="input + render">
+      <option name="closed" value="true" />
+      <created>1770419042290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770419042290</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rendering fun">
+      <option name="closed" value="true" />
+      <created>1770482105290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770482105290</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Transformator + camera">
+      <option name="closed" value="true" />
+      <created>1770571465201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770571465201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/engine/src/main/java/threadfool/op/engine/util/DesktopLauncher.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="transform add" />
+    <MESSAGE value="time" />
+    <MESSAGE value="input + render" />
+    <MESSAGE value="rendering fun" />
+    <MESSAGE value="Transformator + camera" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transformator + camera" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
